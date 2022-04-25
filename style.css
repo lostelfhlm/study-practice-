@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+li {
+    list-style: none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.head {
+    height: 42px;
+    margin: 30px auto;
+    background-color: #f3f5f7;
+
+}
+
+
+
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+    color: 050505;
+
+
+}
+
+.nav ul li a:hover {
+    border-bottom: 1px solid #00a4ff;
+
+}
+
+.sousuo {
+    float: left;
+    width: 412px;
+    height: 42px;
+
+    margin-left: 50px;
+}
+
+.sousuo input {
+    float: left;
+    width: 345px;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    padding-left: 15px;
+}
+
+.sousuo button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    border: 0;
+}
+
+.user {
+    float: right;
+    height: 42px;
+    margin-right: 30px;
+    line-height: 42px;
+}
+
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+
+
+}
+
+.mainpic {
+    height: 420px;
+    background: url(images/banner2.png) no-repeat top center;
+}
+
+.subnav {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background: rgba(0, 0, 0, .2);
+
+}
+
+.subnav li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+
+.subnav li a {
+    font-size: 14px;
+    color: #ffff;
+}
+
+.subnav li a:hover {
+    color: #00a4ff;
+}
+
+.subnav li span {
+    float: right;
+    margin-right: 10px;
+}
+
+.myinfo {
+    float: right;
+    width: 228px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+.mylesson {
+    height: 48px;
+    background-color: #9bceea;
+    line-height: 48px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contine {
+    height: 300px;
+    padding: 0 16px
+}
+
+.contine ul li {
+    border-bottom: 1px solid #d5d5d5;
+    padding: 14px 0;
+
+}
+
+.contine h4 {
+    font-size: 18px;
+
+}
+
+.contine p {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #a5a5a5;
+}
+
+.all {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+}
+
+.jingpin {
+    margin-top: 10px;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, .1);
+    line-height: 60px;
+}
+
+.jingpin h3 {
+    float: left;
+    padding: 0 30px;
+
+    text-align: center;
+    color: #00a4ff;
+
+}
+
+
+.jingpin ul {
+    float: left;
+
+}
+
+.jingpin ul li {
+    float: left;
+
+}
+
+.jingpin ul li a {
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #bfbfbf;
+}
+
+.more {
+    float: right;
+    color: #00a4ff;
+    padding: 0 30px;
+
+}
+
+.box {
+    margin-top: 35px;
+}
+
+.tuijian {
+    height: 40px;
+}
+
+.tuijian h4 {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.tuijian a {
+    float: right;
+    font-size: 12px;
+    padding-right: 20px;
+    line-height: 40px;
+    color: #bfbfbf;
+}
+
+
+.course {}
+
+.course ul li {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 227px;
+    height: 270px;
+    background-color: #ffffff;
+
+}
+
+
+.course ul li h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 20px;
+}
+
+.course ul li img {
+    width: 100%;
+
+}
+
+.info {
+    margin: 0 20px;
+    font-size: 12px;
+    color: #bfbfbf;
+
+}
+
+.course ul li span {
+
+    color: #ff7c2d;
+
+}
+
+.footer {
+    margin-top: 10px;
+    height: 420px;
+    background-color: #ffff;
+}
+
+.webinfo {
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 440px;
+}
+
+.webinfo p {
+    margin: 20px 0;
+    font-size: 12px;
+    color: #666666;
+}
+
+.webinfo a {
+    display: block;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+
+}
+
+.link {
+    float: right;
+    margin: 30px 30px;
+}
+
+.link dl {
+    float: right;
+    margin: 0 40px;
+}
+
+.link dl dt {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.link dl dd a {
+    font-size: 12px;
+    color: #333;
+}
